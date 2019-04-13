@@ -34,7 +34,62 @@
 }
 @media only screen and (max-width: 450px) {
 
-
-
-
+.timings {
+    padding:0px;
+}
+.carousel-inner {
+     min-height: 250px;
+}
+.timings h2 {
+    font-size:25px;
+}
+    .timings P {
+    font-size: 20px;
+}
+    .timer {
+ margin-left:0px;
+}
+    .timer p {
+    text-align:left !important;
+      font-size: 20px;     
+    color: #000000 !important;
+}
+    .timer li span {
+    display: block;
+    font-size: 2rem;
+}
+    .timer li span {
+    display: block;
+    font-size: 2rem;
+}
+    #quote-carousel .carousel-control.right {
+     right: 0px;
+}
+    .timer li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+    .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-top:150px !important;
+    z-index: 15;
+    width: 78%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+    .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 }

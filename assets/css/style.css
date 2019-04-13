@@ -1,4 +1,23 @@
 /*css for navbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 body
 {
 	background-color:black;
@@ -10,7 +29,9 @@ body
 	width:100%;
 	margin-top:-15px;
 }
-
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
 .small
 {
 	max-width:50px;
@@ -35,9 +56,9 @@ body
 }
 .navbar-nav li a
 {
-	font-size:14px;
+	font-size:16px;
 	color:#66fcf1 !important;
-font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.8px;
 }
 .navbar-nav li a:hover
@@ -74,7 +95,7 @@ height:auto;
 }
 .banny
 {
-	 background-image: url("http://localhost/web/assets/images/banner/banny.png");
+	 background-image: url("../images/banner/banny.png");
 	 background-repeat: no-repeat;
   background-attachment: fixed  background-position: center; 
     margin: 0!important;
@@ -255,6 +276,24 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 {
 	margin:30px 0px;
 }
+.icon-bar {
+ 
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #ff0000;
+}
+
+
 /*testimonies*/
 #quote-carousel {
     padding: 0 10px 30px 10px;
@@ -400,7 +439,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
-  font-family: 'Lato', sans-serif;
+  font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -443,7 +482,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
   }
   
   .landingPageBanner.alternative .landingPageBanner__titleBox h3 {
-    font-family: 'PT serif', 'serif';
+   font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f2f2f2;
   }
   
@@ -477,7 +516,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 	.modal.right .modal-dialog {
 		position: fixed;
 		margin: auto;
-		width: 250px;
+		width: 200px;
 		height: 100%;
 		-webkit-transform: translate3d(0%, 0, 0);
 		    -ms-transform: translate3d(0%, 0, 0);
@@ -498,7 +537,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 
 /*Left*/
 	.modal.left.fade .modal-dialog{
-		left: -320px;
+		left: -250px;
 		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
 		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
 		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
@@ -511,7 +550,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
         
 /*Right*/
 	.modal.right.fade .modal-dialog {
-		right: -320px;
+		right: -250px;
 		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
 		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
 		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
@@ -534,3 +573,47 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 	}
 
 /*sidebar and cart*/
+
+
+
+/*footer*/
+/*footer*/
+footer
+{
+    margin-top:100px;
+    font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.col_white_amrc { color:#273C48;font-size:22px;font-weight:600;}
+footer { width:100%; background-color:#F4F4F2; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#273C48; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#273C48;}
+.footer_ul_amrc li a:hover{ color:#273C48; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#273C48; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#273C48; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}

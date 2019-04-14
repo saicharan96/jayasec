@@ -327,7 +327,8 @@ margin:50px 0px;
 }
 .core h2
 {
-    font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px;
     color:#ffffff;
     font-weight:700;
     font-size:40px;
@@ -414,7 +415,7 @@ margin:50px 0px;
 }
 .leftside p, .rightside p   
 {
-      font-family:Muli,sans-serif;
+      font-family:'Muli',sans-serif;
       color:#000000;
     font-size:18px;
     
@@ -430,7 +431,29 @@ margin:50px 0px;
     -o-background-size: cover!important;
     background-size: cover!important;
 }
-    
+
+    .imager {
+    position: relative;
+    text-align: center;
+    color:black;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 30px 0px;
+    padding: 10px;
+}
+.imager p
+{
+  color:#000000; 
+    padding:5px;
+    font-family:'Muli',sans-serif;
+}
+.sermon
+{
+    max-width:600px;
+    width:100%;
+}
 /*testimonies*/
 #quote-carousel {
     padding: 0 10px 30px 10px;

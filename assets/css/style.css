@@ -45,6 +45,7 @@ body
 {
 	background-color:#000000;
 	border:none !important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	height:53px;
 }
 .navbar-default .navbar-toggle {
@@ -73,7 +74,11 @@ font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen
 {
  color:#000000 !important;
 }
-
+.dropdown-menu li a:hover
+{
+text-decoration:none;
+    border-bottom: none;
+}
 .sidecolor li a
 {
 	color:#000000 !important;
@@ -90,7 +95,7 @@ font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen
 .maindiv
 {
 	margin-top:52px;
-height:500px;
+height:400px;
 height:auto;
 }
 .banny
@@ -104,6 +109,17 @@ height:auto;
     -o-background-size: cover!important;
     background-size: cover!important;
 }
+.bannet
+{
+   background-image: url("../images/banner/bannet.png");
+	 background-repeat: no-repeat;
+  background-attachment: fixed  background-position: center; 
+    margin: 0!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;  
+}
 .timings P
 {
 	padding:5px 15px;
@@ -114,13 +130,13 @@ height:auto;
 	font-size:22px;
     line-height:30px;
 }
-.timings
+.doit
 {
-	margin:10px;
+    font-family: 'Muli', sans-serif;font-weight:800 !important;margin-top:50px;font-size:50px;color:#ffffff;
 }
 .carousel, .carousel-inner
 {
-	max-height:500px;
+	max-height:400px;
 }
 .close span
 {
@@ -157,6 +173,18 @@ height:auto;
 }
 .button {
   background-color: #000000; /* Green */
+  font-family: 'Muli', sans-serif;
+  border: none;
+  color: white;
+  margin:5px 0px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2 {
+  background-color: #ff0000; /* Green */
   font-family: 'Muli', sans-serif;
   border: none;
   color: white;
@@ -250,7 +278,7 @@ font-family: 'Muli', sans-serif;
 }
 .devoty h2
 {
-font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:30px;
 	color:#ffffff;
 	text-align: center;
@@ -263,7 +291,7 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 }
 .head
 {
-	font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+	font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:30px;
 	letter-spacing: 0.8px;
 	color:#66fcf1 !important;
@@ -293,7 +321,116 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
   background-color: #ff0000;
 }
 
-
+.core
+{
+margin:50px 0px;
+}
+.core h2
+{
+    font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#ffffff;
+    font-weight:700;
+    font-size:40px;
+    text-align:center;
+}
+.core p
+{
+ font-family: 'Muli', sans-serif;  
+    color:#e8e8e8;
+    font-weight:400;
+    line-height:30px;
+    font-size:19px;
+}
+.corey
+{
+    margin:50px 0px;
+    
+}
+.power
+{
+    border:2px solid #66D493;
+     font-family: 'Muli', sans-serif;   
+    color:#000000;
+    background-color:#DFDFDF;
+    font-weight:400;
+    line-height:30px;
+    font-size:17px;
+}
+.power1
+{
+   border:2px solid #66D493;
+     font-family: 'Muli', sans-serif;   
+    color:#000000;
+    background-image: url(../images/banner/sms.jpg);
+     -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    font-weight:400;
+    line-height:30px;
+    font-size:17px; 
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.pastor
+{
+    margin:80px 0px;
+}
+.pascon
+{
+    border:2px solid #66FCD2;
+}
+.pastor h3
+{
+    font-family: 'Muli', sans-serif; 
+    color:#ffffff;
+}
+.pastor p
+{
+   font-family: 'Muli', sans-serif; 
+    color:#DFDFDF;
+    font-size:17px;
+    line-height:30px;
+}
+.leftside
+{
+    background-image: url(../images/banner/yellow.jpg);
+    margin: 0!important;
+    min-height:250px;
+    padding:10px !important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+}
+.leftside h3, .rightside h3
+{
+    color:#ffffff;
+    font-weight:bold;
+    text-shadow: 2px 2px 8px #000000;
+     font-family:Muli,sans-serif;
+}
+.leftside p, .rightside p   
+{
+      font-family:Muli,sans-serif;
+      color:#000000;
+    font-size:18px;
+    
+}
+.rightside
+{
+    background-image: url(../images/banner/green.jpg);
+    margin: 0!important;
+      min-height:250px;
+    padding:10px !important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+}
+    
 /*testimonies*/
 #quote-carousel {
     padding: 0 10px 30px 10px;
@@ -353,7 +490,16 @@ font-family:Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
 	color:#ffffff !important;
     margin: 0;
 }
-
+.aboutbann
+{
+    margin-top:50px;
+  max-width: 3000px;
+    width: 100%;
+}
+.icon-bar a
+{
+    color:#f4f4f4;
+}
 /*testimonies*/
 
 /*sutadhu*/
@@ -586,9 +732,9 @@ footer
 .col_white_amrc { color:#273C48;font-size:22px;font-weight:600;}
 footer { width:100%; background-color:#F4F4F2; min-height:250px; padding:10px 0px 25px 0px ;}
 .pt2 { padding-top:40px ; margin-bottom:20px ;}
-footer p { font-size:13px; color:#273C48; padding-bottom:0px; margin-bottom:8px;}
+footer p { font-size:14px; color:#273C48; padding-bottom:0px;line-height:30px; margin-bottom:8px;}
 .mb10 { padding-bottom:15px ;}
-.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px;line-height:30px; padding:0px 0px 10px 0px ; }
 .footer_ul_amrc li {padding:0px 0px 5px 0px;}
 .footer_ul_amrc li a{ color:#273C48;}
 .footer_ul_amrc li a:hover{ color:#273C48; text-decoration:none;}
@@ -611,7 +757,7 @@ footer p { font-size:13px; color:#273C48; padding-bottom:0px; margin-bottom:8px;
 	margin-left: auto;
 }
 .foote_bottom_ul_amrc li { display:inline;}
-.foote_bottom_ul_amrc li a { color:#273C48; margin:0 12px;}
+.foote_bottom_ul_amrc li a { color:#273C48; margin:0 12px;font-size:15px;}
 
 .social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
